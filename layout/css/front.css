@@ -1,0 +1,238 @@
+/* start main rules */
+ body{
+    background: #f4f4f4;
+    font-size: 16px;
+    
+ }
+ .nice-message{
+      padding: 19px;
+    margin: 10px;
+    border-left: 5px solid #f00;
+    background: #fff;
+    width: 303px;
+    margin-left: 414px;
+
+ }
+ .upper-bar{
+   padding: 10px;
+   background: #fff
+ }
+ .loginPage form{
+   max-width: 380px;
+   margin: auto;
+ }
+ .loginPage form input{
+   margin-bottom: 10px;
+ }
+ .loginPage [data-class="login"].selected{
+   color:#2e6da4;
+ }
+ .loginPage [data-class="signup"].selected{
+   color: #5cb85c;
+ }
+ .loginPage h1{
+    color: #C0C0C0;
+ }
+ .loginPage span{
+   cursor: pointer;
+ }
+ .loginPage .signup{
+   display: none;
+ }
+
+/* start login form */
+
+/*start bootstrab edit*/
+.navbar{
+   border-radius: 0;
+   margin-bottom: 0
+}
+.navbar-brand{
+   font-size: 1em;/* one time of font of body*/
+}
+.nav li>a,.navbar-brand{
+   padding: 15px 12px;
+   
+}
+nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover,.dropdown-menu {
+    background-color:#3498db;
+}
+.dropdown-menu{
+  min-width: 180px;
+  padding: 0;
+  font-size: 1em;
+  border:none;
+  border-radius: 0;
+  
+}
+.dropdown-menu>li >a{
+   color: #fff;
+   padding:10px 15px ;
+}
+.dropdown-menu>li >a:focus,
+.dropdown-menu>li >a:hover {  
+   background: #8e44ad  ;
+   color: #fff;
+   }
+/*end bootstrab edit*/
+
+h1{
+   font-size: 50px;
+    margin: 40px 0;
+    font-weight: bold;
+    color: #666;
+}
+ .astersik{
+    position: absolute;
+    top: 4px;
+    right: 27px;
+    color: #f00;
+    font-size: 36px;
+}
+ .thumbnail span {
+    position: absolute;
+    top: 23px;
+    background: #736565;
+    padding: 10px;
+    color: #fff;
+
+ }
+ 
+
+/* start profile page*/
+.information{
+   margin-top: 20px;
+}
+.container{
+   padding-left: 0;
+}
+.information ul{
+   padding:0;
+   margin:0;
+}
+.information ul li{
+   padding :10px;
+}
+.information ul li:nth-child(odd){
+   background: #EEE;
+}
+.information ul li span{
+   display: inline-block;
+   width: 150px;
+}
+.thumbnail .date{
+   text-align: right;
+   font-size: 18px;
+   font-weight: bold;
+   color:#AAA;
+}
+.item-info ul li{
+   padding :10px ;
+}
+.item-info p{
+   padding:10px;
+}
+.item-info h2{
+  
+   margin: 0;
+}
+.item-info ul li:nth-child(odd){
+   background: #EEE;
+}
+.item-info ul li span{
+   display:inline-block;
+   width:120px;
+}
+.custom-hr{
+   border-top:1px solid #D7A0A0;
+}
+
+.comment-add h3{
+   margin:0 0 10px;
+}
+.comment-add textarea{
+   width:400px;
+   height:150px;
+   margin-bottom: 10px;
+   display: block;
+}
+.comment-box{
+  margin-bottom: 20px;
+}
+.comment-box img{
+   max-width: 100px;
+   margin:auto;
+   display: block;
+   margin-bottom: 10px;
+}
+.comment-box .lead{
+   background: #EEE;
+   position: relative;
+   padding:10px;
+   margin-top: 20px;
+   
+}
+.comment-box .lead:before{
+   content: "";
+   width: 0;
+   height: 0;
+   border-width: 15px;
+   border-style: solid;
+   border-color: transparent #D1CFCF transparent transparent;
+   position: absolute;
+   top:10px;
+   left:-28px;
+}
+.waiting-approval{
+   position: absolute;
+   padding: 3px 5px;
+   left: 24px;
+   background: #b85a5a;
+   color: #fff;
+   top: 72px;
+}
+.caption p{
+   max-height: 44px;
+   height: 44px;
+}
+span.name{
+       color: #4c2b4a;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.headimg{
+ width: 50px;
+    height: 50px;
+
+}
+.infoEdit{
+   margin-top: 10px;
+}
+.tags{
+   display: inline-block;
+   background: #e2e2e2;
+   padding: 2px 10px;
+   border-radius: 5px;
+   color: #666;
+   margin-right: 5px;
+}
+img.img-responsive.img-thumbnail.center-block {
+    width: 321px;
+    height: 322px;
+}
+/* end profile page */
+
+.thumbnail a>img, .thumbnail>img {
+    margin-right: auto;
+    margin-left: auto;
+    width: 293px;
+    height: 323px;
+}
+
+
+
+
+
+
+/* end category page */
